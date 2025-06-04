@@ -29,13 +29,13 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
             <a 
-              href="#projects" 
+              href="#skills" 
               className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl"
             >
-              View My Work
+              View My Skills
             </a>
             <a 
-              href="#contact" 
+              href="mailto:utkarsh@example.com" 
               className="px-8 py-3 border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white rounded-lg font-semibold transition-colors"
             >
               Get In Touch

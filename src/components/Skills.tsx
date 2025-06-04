@@ -48,21 +48,6 @@ const Skills = () => {
             </div>
           ))}
         </div>
-
-        <div className="mt-16 grid md:grid-cols-3 gap-8">
-          <div className="text-center p-6 bg-slate-700/30 rounded-xl">
-            <div className="text-3xl font-bold text-blue-400 mb-2">5+</div>
-            <div className="text-slate-300">Years Experience</div>
-          </div>
-          <div className="text-center p-6 bg-slate-700/30 rounded-xl">
-            <div className="text-3xl font-bold text-blue-400 mb-2">50+</div>
-            <div className="text-slate-300">Projects Deployed</div>
-          </div>
-          <div className="text-center p-6 bg-slate-700/30 rounded-xl">
-            <div className="text-3xl font-bold text-blue-400 mb-2">99.9%</div>
-            <div className="text-slate-300">Uptime Achieved</div>
-          </div>
-        </div>
       </div>
     </section>
   );
