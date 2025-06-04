@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
 
@@ -9,9 +8,13 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Profile Image Placeholder */}
-          <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
-            UP
+          {/* Profile Image */}
+          <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden shadow-2xl border-4 border-blue-500">
+            <img 
+              src="/lovable-uploads/db1e16ae-fbf9-4cbd-9624-bee8abe61647.png" 
+              alt="Utkarsh Patrikar"
+              className="w-full h-full object-cover"
+            />
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
